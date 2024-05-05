@@ -18,10 +18,13 @@ function playGame(playersChoice) {
     } else if (
         (playersChoice === "scissors" && computersChoice === "paper")
         (playersChoice === "rock" && computersChoice === "scissors")
-        (playersChoice === "paper" && computersChoice === "rock")
-    ) playersScore++;
-} else {
+        (playersChoice === "paper" && computersChoice === "rock")    
+    ) {return "You Win!";
+      playersScore++;
+    } else {
+    return "Computer Wins!";
     computerScore++;
+} 
 }
 
 function displayWinner() {
@@ -29,7 +32,7 @@ function displayWinner() {
 }
 
 function playersScore() {
-
+    
 }
 
 function computersScore() {
