@@ -1,0 +1,94 @@
+*{
+    font-family: Lato, sans-serif;
+}
+
+body {
+    background-color: rgb(136, 6, 6);
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    font-size: 25px;
+    color:aliceblue;
+}
+
+.heading {
+   text-align: center;
+   color:bisque;
+   font-size: 40px;
+   padding-bottom: 40px;
+}
+
+.button {
+    font-size: 55px;
+    color: rgb(229, 230, 220);
+    border-radius: 300px;
+    background-color: black;
+    padding: 25px;
+
+}
+
+.scores {
+    padding: 40px;
+}
+
+.game-area {
+    display: inline-block;
+    padding: 20px;
+}
+
+.choice-area {
+    font-size: 25px;
+    color: bisque;
+    padding-bottom: 20px;
+}
+
+.button-area {
+    padding-bottom: 20px;
+}
+
+.result-area {
+    padding-top: 20px;
+}
+
+
+.rock-button {
+    margin: 10px;
+}
+
+.paper-button {
+    margin: 10px;
+}
+
+.scissors-button {
+    margin: 10px;
+}
+
+#result {
+    font-size: 40px;
+    color:bisque;
+    padding-bottom: 25px;
+}
+
+#player-score {
+    text-align: center;
+    color: bisque;
+    font-size: 30px;
+    left: -20px;
+    padding-top: 20px;
+}
+
+#computer-score {
+    text-align: center;
+    color: bisque;
+    font-size: 30px;
+}
+
+#player-chooses {
+    font-size: 30px;
+}
+
+#computer-chooses {
+    font-size: 30px;
+}

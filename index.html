@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link href="assets/css/style.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+        </style>
+        <link rel="icon" href="assets/images/rock.JPEG">
+<body>
+    <section class = "game-area">
+    <h1 class = "heading">Rock Paper Scissors</h1>
+    <div class = "button-area">
+    <button class = "rock-button button">Rock</button>
+    <button class = "paper-button button">Paper</button>
+    <button class = "scissors-button button" >Scissors</button>           
+    </div>
+    <div class = "choice-area">
+        <p id = "player-chooses">You Choose: <span id = "players-choice"></span></p>
+        <p id = "computer-chooses">Computer Chooses: <span id = "computers-choice"></span></p>
+        <div class = "result-area">
+            <p id="result">Winner: <span id="display-game-winner"></span></p>
+            </div>
+            
+    </div>
+    <div class = "score-area">
+        <p class = "scores" id = "player-score">Your Score: <span id = "wins"></span>0</p>
+        <p class = "scores" id = "computer-score">Computers Score: <span id = "losses">0</span></p>
+    </div>
+</section>
+<footer>
+    <h2>Rules</h2>
+    <p>Rock beats Scissors, Scissors beats Paper, Paper beats Rock</p>
+</footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
