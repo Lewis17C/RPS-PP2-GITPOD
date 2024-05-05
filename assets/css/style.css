@@ -92,3 +92,7 @@ footer {
 #computer-chooses {
     font-size: 30px;
 }
+
+button:hover {
+    background-color: rgb(65, 64, 64);
+}

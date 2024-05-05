@@ -1,13 +1,38 @@
-console.log("test test 123");
+const choices = ["rock", "paper", "scissors"]
+let playersScore = 0;
+let computersScore = 0;
 
-const choices = ["rock", "paper", "scissors"];
-const playersChoice = document.getElementById("player-chooses");
-const computersChoice = document.getElementById("computer-chooses");
-const result = document.getElementById("result");
+function playersChoice() {
+    let playersChoice = getElementById("button");
+    playersChoice.addEventListener("click", playGame());
+}
 
-function playGame(playersChoice){
-    const computersChoice = choices[Math.floor(Math.random() * 3)];
-    let result = undefined;
+function computersChoice() {
+    const computersChoice = Math.floor(Math.random() * choices.length);
+    return computersChoice
+}
 
+function playGame(playersChoice) {
+    if (playersChoice === computersChoice) {
+        return "Tie! Play again!"
+    } else if (
+        (playersChoice === "scissors" && computersChoice === "paper")
+        (playersChoice === "rock" && computersChoice === "scissors")
+        (playersChoice === "paper" && computersChoice === "rock")
+    ) playersScore++;
+} else {
+    computerScore++;
+}
+
+function displayWinner() {
 
 }
+
+function playersScore() {
+
+}
+
+function computersScore() {
+
+}
+
