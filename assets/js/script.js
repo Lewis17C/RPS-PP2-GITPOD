@@ -2,6 +2,12 @@ const choices = ["rock", "paper", "scissors"]
 let playersScore = 0;
 let computersScore = 0;
 
+ document.getElementById("button").addEventListener("onclick", function(event) {
+        if (event.key === "Enter") {
+            checkAnswer();
+        }
+    })
+
 //creates the ability for the player to slect an option
 function playersChoice() {
     let playersChoice = getElementById("button");
@@ -28,7 +34,7 @@ function playGame(playersChoice) {
 } 
 }
 //displays the winner of the round 
-function displayWinner("display-game-winner") {
+function displayWinner() {
     const winner = document.getElementById("display-game-winner");
     resultElement.textContent = winner;
 }
